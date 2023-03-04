@@ -165,7 +165,7 @@ class ProductItemDetails extends Component {
                                     <span className="font-weight-bold">About: </span>
                                     {description}
                                 </p>
-                                <li className="d-none d-md-block col-md-2 bg-secondary">
+                                <li className="d-none d-md-block col-md-2">
                                     <div className="rounded-pill pill d-flex quantity justify-content-around align-items-center">
                                         <button type="button" className="btn m-0 p-0" onClick={() => this.setQuantity("-")}><AiOutlineMinus className="p-0 m-0" /></button>
 
