@@ -127,6 +127,7 @@ class ProductItemDetails extends Component {
             price,
             quality,
             quantity,
+            category
         } = productDet
         return (
             <>
@@ -154,8 +155,8 @@ class ProductItemDetails extends Component {
                                 </div>
                                 <p className="m-1"></p>
                                 <p>
-                                    <span className="font-weight-bold">Product Name: </span>
-                                    {title}
+                                    <span className="font-weight-bold">Cateogry: </span>
+                                    {category}
                                 </p>
                                 <p>
                                     <span className="font-weight-bold">Availability: </span>
