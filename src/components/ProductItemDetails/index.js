@@ -17,8 +17,7 @@ class ProductItemDetails extends Component {
     state = {
         productDet: {},
         apiStatus: 'initial',
-        count: 1,
-        firstTime: true
+        count: 1
     }
 
 
@@ -46,7 +45,8 @@ class ProductItemDetails extends Component {
 
 
     fetchProductDetails = async (id) => {
-        const url = `http://localhost:4000`
+        // const url = `http://localhost:4000`
+        const url = "https://ansronebe.onrender.com"
         try {
 
             const response = await fetch(`${url}/products/${id}`)

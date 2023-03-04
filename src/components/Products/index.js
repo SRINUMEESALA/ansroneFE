@@ -5,7 +5,7 @@ import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import "./index.css"
 
-const url = "http://localhost:4000/products"
+
 const apiStatusConstants = {
     fail: "Failed",
     success: "Successful",
@@ -19,6 +19,8 @@ const Products = () => {
 
     const getProducts = async () => {
         setProductsAPIStatus(apiStatusConstants.load)
+        // const url = "http://localhost:4000/products"
+        const url = "https://ansronebe.onrender.com"
         const options = {
             method: "GET",
             headers: {
