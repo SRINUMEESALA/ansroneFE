@@ -20,7 +20,7 @@ const Products = () => {
     const getProducts = async () => {
         setProductsAPIStatus(apiStatusConstants.load)
         // const url = "http://localhost:4000/products"
-        const url = "https://ansronebe.onrender.com"
+        const url = "https://ansronebe.onrender.com/products"
         const options = {
             method: "GET",
             headers: {
